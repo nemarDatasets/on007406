@@ -1,0 +1,19 @@
+{
+  "ReferencesAndLinks": [
+    "https://doi.org/10.17605/OSF.IO/U7MGS"
+  ],
+  "Authors": [
+    "Allison Edit",
+    "Attila Pohlmann"
+  ],
+  "Name": "EEG dataset on consumer responses to extreme versus traditional marketing videos",
+  "License": "CC0",
+  "BIDSVersion": "1.8.0",
+  "HEDVersion": "8.1.0",
+  "GeneratedBy": [
+    {
+      "Name": "EEG-BIDS",
+      "Version": "10.3"
+    }
+  ]
+}
