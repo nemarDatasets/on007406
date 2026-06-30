@@ -1,1 +1,3 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007406-blue)](https://doi.org/10.82901/nemar.on007406)
+
 This dataset comprises EEG recordings from ten participants exposed to six marketing video stimuli from three companies (Red Bull, GoPro, Columbia Sportswear), categorized as traditional product-focused advertisements versus "extreme" authentic documentary-style videos. Data were collected using a 14-channel EMOTIV EPOC X headset.
