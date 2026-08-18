@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "EEG dataset on consumer responses to extreme versus traditional marketing videos",
-  "description": "This dataset contains EEG recordings from ten participants viewing marketing video stimuli designed to compare consumer neural responses to traditional product-focused advertisements versus extreme documentary-style videos from three companies (Red Bull, GoPro, Columbia Sportswear). Data were acquired using a 14-channel EMOTIV EPOC X headset to investigate neuromarketing responses to different advertising approaches.",
-  "methods_description": "EEG data were collected using a 14-channel EMOTIV EPOC X headset while participants viewed six marketing video stimuli from three companies, categorized as either traditional product-focused advertisements or extreme authentic documentary-style videos.",
+  "description": "This dataset contains EEG recordings from ten participants exposed to six marketing video stimuli from three companies (Red Bull, GoPro, and Columbia Sportswear). Videos were categorized as either traditional product-focused advertisements or extreme, authentic documentary-style content, enabling investigation of consumer neural responses to different marketing strategies. The dataset supports research in neuromarketing and consumer neuroscience.",
+  "methods_description": "EEG data were collected using a 14-channel EMOTIV EPOC X headset while participants viewed six marketing video stimuli from three companies, categorized as traditional versus extreme advertisement styles.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,10 +23,13 @@
       "term": "consumer behavior"
     },
     {
+      "term": "advertising"
+    },
+    {
       "term": "video stimuli"
     },
     {
-      "term": "advertising"
+      "term": "EMOTIV EPOC X"
     }
   ],
   "related_identifiers": [
