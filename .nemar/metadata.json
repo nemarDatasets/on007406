@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG dataset on consumer responses to extreme versus traditional marketing videos",
-  "description": "This dataset contains EEG recordings from ten participants exposed to six marketing video stimuli from three companies (Red Bull, GoPro, and Columbia Sportswear). Videos were categorized as either traditional product-focused advertisements or extreme, authentic documentary-style content, enabling investigation of consumer neural responses to different marketing strategies. The dataset supports research in neuromarketing and consumer neuroscience.",
-  "methods_description": "EEG data were collected using a 14-channel EMOTIV EPOC X headset while participants viewed six marketing video stimuli from three companies, categorized as traditional versus extreme advertisement styles.",
+  "description": "EEG recordings from ten participants who viewed six marketing videos from three companies (Red Bull, GoPro, Columbia Sportswear). The videos were either traditional product-focused advertisements or 'extreme' authentic documentary-style content. The dataset supports research on neural correlates of consumer responses to different marketing video styles.",
+  "methods_description": "EEG was recorded with a 14-channel EMOTIV EPOC X headset while ten participants watched six marketing video stimuli, grouped as traditional versus extreme.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,16 +17,19 @@
       "term": "EEG"
     },
     {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "consumer neuroscience"
+    },
+    {
       "term": "neuromarketing"
     },
     {
-      "term": "consumer behavior"
+      "term": "marketing"
     },
     {
-      "term": "advertising"
-    },
-    {
-      "term": "video stimuli"
+      "term": "video advertising"
     },
     {
       "term": "EMOTIV EPOC X"
@@ -36,7 +39,7 @@
     {
       "identifier": "10.17605/OSF.IO/U7MGS",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on007406",
@@ -52,11 +55,6 @@
       "identifier": "10.18112/openneuro.ds007406.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "10.82901/nemar.on007406",
-      "identifier_type": "DOI",
-      "relation_type": "IsVersionOf"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -64,7 +62,7 @@
     "eeg"
   ],
   "sizes": [
-    "27.0 MB (11 files)"
+    "25.74 MB (11 files)"
   ],
   "formats": [
     ".json",
